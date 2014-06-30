@@ -1781,44 +1781,44 @@ Based on the following sources:
 <attribute name="NAME" x="7.9375" y="27.6225" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="11.43" y="27.305" size="1.27" layer="27"/>
 </element>
-<element name="Q1" library="special" package="QS" value="" x="18.0975" y="17.145" rot="R90"/>
-<element name="C1" library="rcl" package="C0805" value="" x="21.2725" y="14.9225" smashed="yes" rot="MR270">
+<element name="Q1" library="special" package="QS" value="16MHz" x="18.0975" y="17.145" rot="R90"/>
+<element name="C1" library="rcl" package="C0805" value="22p" x="21.2725" y="14.9225" smashed="yes" rot="MR270">
 <attribute name="NAME" x="17.78" y="16.8275" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="23.8125" y="16.1925" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="C2" library="rcl" package="C0805" value="" x="21.2725" y="19.3675" smashed="yes" rot="MR90">
+<element name="C2" library="rcl" package="C0805" value="22p" x="21.2725" y="19.3675" smashed="yes" rot="MR90">
 <attribute name="NAME" x="20.0025" y="17.4625" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="18.7325" y="18.0975" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="C3" library="rcl" package="C0805" value="" x="26.67" y="3.81" smashed="yes" rot="MR270">
+<element name="C3" library="rcl" package="C0805" value="100n" x="26.67" y="3.81" smashed="yes" rot="MR270">
 <attribute name="NAME" x="29.21" y="6.0325" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="29.21" y="5.08" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="C4" library="rcl" package="C0805" value="" x="3.4925" y="21.59" smashed="yes" rot="MR270">
+<element name="C4" library="rcl" package="C0805" value="100n" x="3.4925" y="21.59" smashed="yes" rot="MR270">
 <attribute name="NAME" x="2.2225" y="22.86" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="6.0325" y="22.86" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="C5" library="rcl" package="C0805" value="" x="17.78" y="24.4475" smashed="yes" rot="MR0">
+<element name="C5" library="rcl" package="C0805" value="100n" x="17.78" y="24.4475" smashed="yes" rot="MR0">
 <attribute name="NAME" x="20.32" y="25.0825" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="19.05" y="21.9075" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="C6" library="rcl" package="E2,5-6" value="" x="26.67" y="18.7325" rot="R270"/>
-<element name="C9" library="rcl" package="C0805" value="" x="9.8425" y="29.845" smashed="yes" rot="MR90">
+<element name="C6" library="rcl" package="E2,5-6" value="10u" x="26.67" y="18.7325" rot="R270"/>
+<element name="C9" library="rcl" package="C0805" value="100n" x="9.8425" y="29.845" smashed="yes" rot="MR90">
 <attribute name="NAME" x="7.3025" y="28.575" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="7.3025" y="28.575" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="AVRISP" library="avr-7" package="AVR-ISP-6" value="AVR-ISP-6VERT" x="7.3025" y="5.08" smashed="yes" rot="R270">
 <attribute name="NAME" x="4.1275" y="10.16" size="1.27" layer="25" ratio="10"/>
 </element>
-<element name="C10" library="rcl" package="C0805" value="" x="17.78" y="21.9075" smashed="yes" rot="MR180">
+<element name="C10" library="rcl" package="C0805" value="100n" x="17.78" y="21.9075" smashed="yes" rot="MR180">
 <attribute name="NAME" x="20.0025" y="22.86" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="16.51" y="24.4475" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="R1" library="rcl" package="M0805" value="" x="3.4925" y="26.035" smashed="yes" rot="MR90">
+<element name="R1" library="rcl" package="M0805" value="10k" x="3.4925" y="26.035" smashed="yes" rot="MR90">
 <attribute name="NAME" x="0.9525" y="24.765" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="0.9525" y="24.765" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R2" library="rcl" package="M0805" value="" x="15.875" y="27.6225" smashed="yes" rot="MR180">
+<element name="R2" library="rcl" package="M0805" value="1k" x="15.875" y="27.6225" smashed="yes" rot="MR180">
 <attribute name="NAME" x="18.0975" y="28.2575" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="14.605" y="30.1625" size="1.27" layer="28" rot="MR180"/>
 </element>
@@ -1830,23 +1830,23 @@ Based on the following sources:
 <attribute name="NAME" x="29.845" y="25.4" size="0.4064" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="24.13" y="26.3525" size="0.4064" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="C7" library="rcl" package="C0805" value="" x="34.29" y="29.5275" smashed="yes" rot="MR270">
+<element name="C7" library="rcl" package="C0805" value="100n" x="34.29" y="29.5275" smashed="yes" rot="MR270">
 <attribute name="NAME" x="34.925" y="27.6225" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="36.83" y="30.7975" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R3" library="rcl" package="M0805" value="" x="25.7175" y="33.655" smashed="yes" rot="MR180">
+<element name="R3" library="rcl" package="M0805" value="1k" x="25.7175" y="33.655" smashed="yes" rot="MR180">
 <attribute name="NAME" x="21.2725" y="34.6075" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="24.4475" y="36.195" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="R4" library="rcl" package="M0805" value="" x="25.7175" y="31.4325" smashed="yes" rot="MR180">
+<element name="R4" library="rcl" package="M0805" value="1k" x="25.7175" y="31.4325" smashed="yes" rot="MR180">
 <attribute name="NAME" x="24.4475" y="30.1625" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="24.4475" y="33.9725" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="D1" library="diode" package="SOD80C" value="" x="29.21" y="31.4325" smashed="yes" rot="MR270">
+<element name="D1" library="diode" package="SOD80C" value="5V" x="29.21" y="31.4325" smashed="yes" rot="MR270">
 <attribute name="NAME" x="29.972" y="28.829" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="31.623" y="32.9565" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="D2" library="diode" package="SOD80C" value="" x="31.75" y="31.4325" smashed="yes" rot="MR270">
+<element name="D2" library="diode" package="SOD80C" value="5V" x="31.75" y="31.4325" smashed="yes" rot="MR270">
 <attribute name="NAME" x="32.512" y="28.829" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="34.163" y="32.9565" size="1.27" layer="28" rot="MR270"/>
 </element>

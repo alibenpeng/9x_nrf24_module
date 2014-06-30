@@ -15490,26 +15490,26 @@ diameter 3 mm, horizontal, grid 12.7 mm</description>
 <part name="VCC" library="supply1" deviceset="VCC" device=""/>
 <part name="P+5" library="supply1" deviceset="VCC" device=""/>
 <part name="SUPPLY5" library="supply2" deviceset="GND" device=""/>
-<part name="Q1" library="special" deviceset="XTAL/S" device=""/>
-<part name="C1" library="rcl" deviceset="C-EU" device="C0805"/>
-<part name="C2" library="rcl" deviceset="C-EU" device="C0805"/>
-<part name="C3" library="rcl" deviceset="C-EU" device="C0805"/>
-<part name="C4" library="rcl" deviceset="C-EU" device="C0805"/>
-<part name="C5" library="rcl" deviceset="C-EU" device="C0805"/>
-<part name="C6" library="rcl" deviceset="CPOL-EU" device="E2.5-6"/>
-<part name="C9" library="rcl" deviceset="C-EU" device="C0805"/>
+<part name="Q1" library="special" deviceset="XTAL/S" device="" value="16MHz"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C0805" value="22p"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="22p"/>
+<part name="C3" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
+<part name="C4" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
+<part name="C5" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
+<part name="C6" library="rcl" deviceset="CPOL-EU" device="E2.5-6" value="10u"/>
+<part name="C9" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="AVRISP" library="avr-7" deviceset="AVR-ISP-6" device="VERT"/>
-<part name="C10" library="rcl" deviceset="C-EU" device="C0805"/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="M0805"/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="M0805"/>
+<part name="C10" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="M0805" value="10k"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="M0805" value="1k"/>
 <part name="LED1" library="led" deviceset="LED" device="SMT1206"/>
 <part name="IC2" library="Alis custom parts" deviceset="MCP1702" device=""/>
 <part name="P+4" library="supply1" deviceset="VCC" device=""/>
-<part name="C7" library="rcl" deviceset="C-EU" device="C0805"/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="M0805"/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="M0805"/>
-<part name="D1" library="diode" deviceset="ZENER-DIODE" device="SOD80C"/>
-<part name="D2" library="diode" deviceset="ZENER-DIODE" device="SOD80C"/>
+<part name="C7" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="M0805" value="1k"/>
+<part name="R4" library="rcl" deviceset="R-EU_" device="M0805" value="1k"/>
+<part name="D1" library="diode" deviceset="ZENER-DIODE" device="SOD80C" value="5V"/>
+<part name="D2" library="diode" deviceset="ZENER-DIODE" device="SOD80C" value="5V"/>
 <part name="SUPPLY6" library="supply2" deviceset="GND" device=""/>
 </parts>
 <sheets>
